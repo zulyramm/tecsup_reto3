@@ -1,7 +1,7 @@
 'use strict';
 
 const nav = document.querySelector('.nav');
-const iconMenu = document.getElementById('icon-menu');
+const iconMenu = document.getElementById('icon--menu');
 const iconClose = document.getElementById('icon-close');
 const listHeader = document.querySelector('.list--header');
 
