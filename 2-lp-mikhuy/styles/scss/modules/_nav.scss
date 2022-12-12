@@ -3,6 +3,11 @@
     padding-top: var(--padding-nav);
     padding-bottom: var(--padding-nav);
     transition: padding 0.25s;
+    --translate-list-header: 100%;
+    --scale-menu: 1;
+    --scale-close: 0;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   
     &--scroll {
       --padding-nav: 0.5rem;
@@ -33,13 +38,7 @@
   }
 
 
-  .nav {
-    --translate-list-header: 100%;
-    --scale-menu: 1;
-    --scale-close: 0;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
+ 
   
   .nav:target {
     --translate-list-header: 0;

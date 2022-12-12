@@ -4,14 +4,12 @@
     background-size: cover;
     box-sizing: border-box;
     min-height: 100vh;
-  }
-  
-  .hero__img {
+  &__img {
     position: relative;
     max-width: 256px;
   }
-  
-  .hero__primary-img {
+
+  &__primary-img {
     display: flex;
     background-color: var(--secondary-shadow-color);
     border-radius: 50%;
@@ -19,7 +17,7 @@
     height: 256px;
   }
   
-  .hero__decorators {
+  &__decorators {
     position: absolute;
     top: 0;
     right: 0;
@@ -29,35 +27,35 @@
     animation: t-rotate 10s linear infinite;
   }
   
-  .hero__decorator {
+  &__decorator {
     position: absolute;
     display: flex;
   }
   
-  .hero__decorator:nth-child(1) {
+  &__decorator:nth-child(1) {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
   }
   
-  .hero__decorator:nth-child(2) {
+  &__decorator:nth-child(2) {
     top: 50%;
     left: 100%;
     transform: translate(-50%, -50%) rotate(-90deg);
   }
   
-  .hero__decorator:nth-child(3) {
+  &__decorator:nth-child(3) {
     top: 50%;
     left: 0%;
     transform: translate(-50%, -50%) rotate(90deg);
   }
   
-  .hero__decorator:nth-child(4) {
+ &__decorator:nth-child(4) {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(180deg);
   }
-
+}
   @media (min-width: 768px) {
     .hero__img {
       max-width: 320px;

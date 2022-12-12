@@ -6,7 +6,7 @@
   max-width: 320px;
   overflow: hidden;
   transition: box-shadow 0.25s;
-}
+
 
 .card:hover {
   box-shadow:
@@ -14,13 +14,7 @@
     0 0 0.25rem 0.125rem var(--primary-highlight-color);
 }
 
-.card__header,
-.card__footer {
-  background-color: var(--reverse-primary-shadow-color);
-  padding: 0.5rem 1rem;
-}
-
-.card__img {
+&__img {
   display: flex;
   background-color: var(--secondary-shadow-color);
   width: 100%;
@@ -28,28 +22,34 @@
   object-fit: cover;
 }
 
-.card__body {
+&__body {
   background-color: var(--reverse-secondary-shadow-color);
   padding: 1rem;
   height: 100%;
 }
 
-.card__title {
+&__title {
   font-size: 1.5rem;
   text-align: center;
   margin: 0;
 }
 
-.card__subtitle {
+&__subtitle {
   font-size: 1.25rem;
   text-align: center;
   margin: 0;
 }
 
-.card__text {
+&__text {
   font-size: 1rem;
   text-align: center;
   margin: 0;
+}
+}
+.card__header,
+.card__footer {
+  background-color:grey;
+  padding: 0.5rem 1rem;
 }
 
 @media (min-width: 768px) {

@@ -1,7 +1,7 @@
 'use strict';
 
 const nav = document.querySelector('.nav');
-const iconMenu = document.getElementById('icon--menu');
+const iconMenu = document.getElementById('icon-menu');
 const iconClose = document.getElementById('icon-close');
 const listHeader = document.querySelector('.list--header');
 
@@ -10,9 +10,9 @@ document.addEventListener('scroll', () => {
 });
 
 iconMenu.addEventListener('click', () => {
-  // listHeader.style.pointerEvents = 'auto';
-  // listHeader.style.opacity = 1;
-  listHeader.classList.add('list--header-show');
+   listHeader.style.pointerEvents = 'auto';
+   listHeader.style.opacity = 1;
+  //listHeader.classList.add('list--header-show');
 });
 
 iconClose.addEventListener('click', () => {
