@@ -141,11 +141,6 @@
   justify-content: space-between;
 }
 
-.f-elements--center {
-  align-items: center;
-  justify-content: center;
-}
-
 .f-elements--responsive {
   flex-direction: column;
 }
@@ -173,7 +168,7 @@
     flex-direction: row;
   }
   .g-elements--responsive {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .g-elements--gallery {
     grid-template-columns: 1fr 1fr 1fr;
